@@ -1,0 +1,21 @@
+@import "~scss/index.scss";
+
+.PostDialog {
+  display: flex;
+  &__left {
+    width: 650px;
+   
+    img {
+      object-fit: contain;
+    }
+  }
+  &__right {
+    width: 250px;
+    border-left: solid 1px black;
+    .card {
+      width: 420px !important;
+      box-shadow: none;
+      border: none;
+    }
+  }
+}
